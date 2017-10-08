@@ -1,0 +1,17 @@
+td, th {
+  padding-left: 30px;
+  border-collapse: separate;
+}
+
+table tr th {
+  font-weight: bold;
+}
+
+table tr td, th {
+  text-align: right;
+}
+
+table tr td.leftAlign, th.leftAlign {
+  text-align: left;
+}
+

@@ -1,0 +1,19 @@
+<table>
+  <tr>
+    <th class="leftAlign">SecurityTicker</th>
+    <th>Profit</th>
+    <th>CostPrice</th>
+    <th>RealizedProfit</th>
+    <th>Dividend</th>
+    <th class="leftAlign">LastUpdate</th>
+  </tr>
+
+  <tr *ngFor="let holding of holdings">
+    <td class="leftAlign">{{holding.security.securityTicker}}</td>
+    <td>{{holding.profit | number:amountNumberFormat}}</td>
+    <td>{{holding.costPrice | number:amountNumberFormat}}</td>
+    <td>{{holding.realizedProfit | number:amountNumberFormat}}</td>
+    <td>{{holding.dividend | number:amountNumberFormat}}</td>
+    <td class="leftAlign">{{holding.lastUpdate}}</td>
+  </tr>
+</table>

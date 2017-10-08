@@ -1,0 +1,12 @@
+body {
+  color: #00476E;
+  background-color: #FFFFFF;
+  font-family: 'Cantarell', sans-serif;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+}
