@@ -35,7 +35,7 @@ exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-b
 
 
 // module
-exports.push([module.i, "body {\n  color: #00476E;\n  background-color: yellowgreen;\n  font-family: 'Cantarell', sans-serif;\n\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n\n  font-style: normal;\n  font-weight: normal;\n  font-size: 14px;\n}\n", ""]);
+exports.push([module.i, "body {\n  color: #00476E;\n  background-color: #FFFFFF;\n  font-family: 'Cantarell', sans-serif;\n\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n\n  font-style: normal;\n  font-weight: normal;\n  font-size: 14px;\n}\n", ""]);
 
 // exports
 
